@@ -1,0 +1,65 @@
+{
+  "name": "PhyCo Gravity Dataset",
+  "version": "1.0.0",
+  "created": "2026-09-08",
+  "rgb_videos": 1000,
+  "base_scenes": 250,
+  "gravity_counts": {
+    "0.1": 250,
+    "0.3": 250,
+    "0.5": 250,
+    "1.0": 250
+  },
+  "gravity_reference_m_s2": 9.8,
+  "scene_family_base_counts": {
+    "ball_drop_soft_v4": 31,
+    "ball_drop_v2": 32,
+    "ball_drop_v3": 32,
+    "cube_deform_soft_v2": 31,
+    "friction_slide_flat": 31,
+    "friction_slide_flat_force": 31,
+    "jenga_force": 31,
+    "pool_table_force": 31
+  },
+  "frame_counts": {
+    "98": 752,
+    "97": 248
+  },
+  "fps_counts": {
+    "24.0": 1000
+  },
+  "resolution_counts": {
+    "768x432": 1000
+  },
+  "splits": {
+    "train": 800,
+    "heldout": 200,
+    "train_groups": 200,
+    "heldout_groups": 50,
+    "group_overlap": 0
+  },
+  "file_types": {
+    ".jpg": 98248,
+    ".png": 98752,
+    ".json": 5004,
+    ".pkl": 1000,
+    ".npz": 1000,
+    ".mp4": 3000,
+    ".jsonl": 3,
+    ".md": 1
+  },
+  "source_file_count": 207008,
+  "official_commit": [
+    "bd8a3b4eb54fa1ad008250e2033a1f8369bff6d3"
+  ],
+  "known_limitations": [
+    "The same seed does not guarantee pixel-identical first frames for every scene family; jenga_force_0010 showed differences between gravity variants.",
+    "Original renderer may reuse settled frames; consult per-video metadata.",
+    "Completion/file checks do not constitute full visual or physical-quality acceptance."
+  ],
+  "archive_contains_original_absolute_path_metadata": true,
+  "portable_manifest_paths_relative_to": "the extracted dataset directory",
+  "license": "CC-BY-NC-4.0",
+  "code_license": "MIT",
+  "public_release_date": "2026-10-01"
+}

@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this collection and acknowledge the upstream PhyCo paper."
+type: dataset
+title: "PhyCo Gravity 1000"
+version: 1.0.0
+date-released: 2026-10-01
+authors:
+  - name: "primorLee"
+    website: "https://github.com/primorLee"
+url: "https://github.com/primorLee/phyco-gravity-1000"
+repository-code: "https://github.com/primorLee/phyco-gravity-1000"
+license: "CC-BY-NC-4.0"
+abstract: "1,000 synthetic RGB videos across four gravity levels, 250 base scenes and eight scene families, generated using a fixed PhyCo-Sim version."
+keywords:
+  - physics simulation
+  - gravity
+  - video dataset
+  - controllable generation

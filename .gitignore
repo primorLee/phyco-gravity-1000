@@ -1,0 +1,6 @@
+/parts/
+/data/
+*.tar
+*.tar.part*
+__pycache__/
+*.pyc
